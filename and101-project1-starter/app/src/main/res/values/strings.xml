@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Hello Squirrel</string>
+
+    <string name="first_name">Lingyu</string>
+    <string name="last_name">Hu</string>
+    <string name="full_name">%s %s</string>
+
+    <string name="profile_bio_text">I am currently a graduate student in computer science.</string>
+
+    <string name="profile_hobby_header_text">Greatest Hobbies of All Time:</string>
+    <string name="profile_hobby_first_text">🥇 Hiking</string>
+    <string name="profile_hobby_second_text">🥈 Coding</string>
+    <string name="profile_hobby_third_text">🥉 Travelling</string>
+</resources>
