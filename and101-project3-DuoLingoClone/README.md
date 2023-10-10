@@ -8,9 +8,8 @@ Time spent: **6** hours spent in total
 
 ## Summary
 
-**DuolingoClone** is an android app that was riddle with some pretty nasty Kotlin bugs.  With those gone, it's a collection of widgets for a variety of purposes!  **Change or add to this description**
+**DuolingoClone** is an android app that was riddle with some pretty nasty Kotlin bugs.  With those gone, it's a collection of widgets for a variety of purposes!  
 
-If I had to describe this project in three (3) emojis, they would be: **emojis here**
 
 ## Application Features
 
@@ -40,15 +39,15 @@ The following EXTRA features are implemented:
 
 I have chosen to duplicate the following layout from the **Duolingo Goal Page** app:
 
-<img src='http://example.com/link/to/your/image.png' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
+<img src='https://i.imgur.com/DeEq8ID.jpg' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
 
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://i.imgur.com/M3FxDXY.gif' title='Video Demo' width='' alt='Video Demo' />
 
-GIF created with **your chosen GIF tool**
+GIF created with **Kap**
 
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
@@ -69,7 +68,7 @@ Here's a place for any other notes on the app, it's creation process, or what yo
 
 ## License
 
-Copyright **yyyy** **your name**
+Copyright **2023** **Lingyu Hu**
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
