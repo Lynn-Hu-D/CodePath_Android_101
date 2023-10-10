@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="80dp"
+        android:text="Price Calculator"
+        style="@style/TextHeader"/>
+
+
+
+    <TextView
+        android:id="@+id/original_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/header_title"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:text="Price: "
+        style="@style/Text"/>
+
+    <EditText
+        android:id="@+id/price_input"
+        style="@style/TextInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+
+        android:layout_marginTop="50dp"
+
+        android:inputType="numberDecimal"
+
+        android:maxLength="10"
+        android:maxLines="1"
+        android:minWidth="200dp"
+        app:layout_constraintBottom_toTopOf="@id/discount"
+        app:layout_constraintStart_toEndOf="@id/original_price"
+        app:layout_constraintTop_toBottomOf="@id/header_title"
+
+
+        />
+
+    <TextView
+        android:id="@+id/discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/original_price"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Discount:"
+        style="@style/Text"/>
+
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/discountSlider"
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:value="0.8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/discount"
+
+        />
+
+    <TextView
+        android:id="@+id/tax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/discount"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:text="Tax Rate:  "
+        style="@style/Text"/>
+
+    <EditText
+        android:id="@+id/taxRate"
+        style="@style/TextInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@id/discount"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+
+
+        android:inputType="numberDecimal"
+
+        android:maxLength="4"
+        android:maxLines="1"
+        android:minWidth="200dp"
+        app:layout_constraintBottom_toTopOf="@id/discount"
+        app:layout_constraintStart_toEndOf="@id/tax"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/taxSlider"
+        android:valueFrom="0"
+        android:valueTo="10.25"
+        android:value="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tax"
+
+        />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tax"
+        android:layout_marginTop="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Calculate"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/finalPriceView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/calculate"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:textSize="30sp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
