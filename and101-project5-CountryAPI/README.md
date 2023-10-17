@@ -39,6 +39,7 @@ My chosen API for this project is **Country API**.
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
+link: https://i.imgur.com/XifLFbb.gif
 
 <img src='https://i.imgur.com/XifLFbb.gif' title='Video Demo'  alt='Video Demo' />
 
