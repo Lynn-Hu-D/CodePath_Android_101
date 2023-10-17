@@ -40,7 +40,7 @@ My chosen API for this project is **Country API**.
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://i.imgur.com/XifLFbb.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://i.imgur.com/XifLFbb.gif' title='Video Demo'  alt='Video Demo' />
 
 GIF created with **your chosen GIF tool**
 
