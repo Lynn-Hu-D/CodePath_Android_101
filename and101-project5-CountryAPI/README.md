@@ -34,15 +34,16 @@ The following EXTRA features are implemented:
 
 ## API Choice
 
-My chosen API for this project is **enter here**.
+My chosen API for this project is **Country API**.
 
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
+link: https://i.imgur.com/XifLFbb.gif
 
-<img src='https://i.imgur.com/XifLFbb.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://i.imgur.com/XifLFbb.gif' title='Video Demo'  alt='Video Demo' />
 
-GIF created with **Kap**
+GIF created with **your chosen GIF tool**
 
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
