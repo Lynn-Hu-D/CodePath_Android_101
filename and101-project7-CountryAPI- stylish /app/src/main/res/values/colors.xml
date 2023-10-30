@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="customPrimaryColor">#FF6200EE</color>
+    <color name="my_primary">#3F51B5</color> <!-- Example color -->
+    <color name="my_primary_dark">#303F9F</color>
+    <color name="my_accent">#FF4081</color>
+    <color name="default_text_color">#000000</color>
+    <color name="my_light_primary">#4CAF50</color>
+
+    <color name="my_dark_primary">#000000</color>
+    <color name="my_dark_primary_dark">#333333</color>
+    <color name="my_dark_accent">#FF4081</color>
+    <color name="default_dark_text_color">#FFFFFF</color>
+</resources>
