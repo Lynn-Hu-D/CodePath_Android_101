@@ -1,51 +1,54 @@
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Project 4 - CodeMath
-
-Submitted by: **LingU hU**
-
-Time spent: **10** hours spent in total
-
-## Summary
-
-**Price Calculator** is an android app that **help us to calculate final prices of products with discount and tax included**
+# AND101 Android Development
 
 
-## Application Features
+## Unit Structure
 
 <!-- (This is a comment) Please be sure to change the [ ] to [x] for any features you completed.  If a feature is not checked [x], you might miss the points for that item! -->
 
-The following REQUIRED features are completed:
+2 Hours of In-Class Time, consisting of:
 
-- [x] At least one (1) user input
-- [x] At least one (1) interactive View
-- [x] At least one (1) output of a calculation based on the user input
+- Interactive Lesson. An instructor-led discussion of this unit's topics, assignments, and how they relate to real-world Android App Development.
+  Estimated time: 30-60 minutes (synchronous)
+- Labs. In each class session, students will follow guides to learn new concepts through hands-on programming, collaboratively building apps.
+  Estimated time: 60-90 minutes (synchronous)
 
-The following STRETCH features are implemented:
+Unit Projects:
 
-- [ ] Implement ViewBinding to reduce boilerplate code and increase efficiency
-- [ ] Add at least one (1) additional functionality
+- For units 1-7, a mobile app specification is assigned to each student as an individual project. This is the student's chance to demonstrate what they have learned that unit!
+- For units 8-10, students will be divided into teams of 3-4 students to scope, design, and build a larger project applying everything they've learned in the course. Groups will showcase their apps on demo day in the final unit.
+- Read more about group project <sup>[![Link](https://courses.codepath.org/courses/and101/unit/8#!projects)]</sup>
+- Estimated time: 2-4 hours / unit (asynchronous)
 
-The following EXTRA features are implemented:
 
-- [ ] To record every calculation
 
-## Video Demo
+## Unit Topics
 
-Here's a video / GIF that demos all of the app's implemented features:
+| Unit | Topic                        | Project                        |
+|------|------------------------------|--------------------------------|
+| 1    | Lab: Android Studio Scavenger Hunt | • Android Studio<br>• Gradle<br>• Android App Emulator |
+| 1    | Project: Hello Squirrel      |                                |
+| 2    | Lab: Kotlin Bootcamp         | • Kotlin Syntax<br>• Debugging Kotlin code |
+| 2    | Project: Kotlin Debug-a-thon |                                |
+| 3    | Lab: Spotify Clone           | • Designing Android UI<br>• Views and Attributes<br>• ConstraintLayout |
+| 3    | Project: AnimalApps          |                                |
+| 4    | Lab: Red Button              | • Debugging in Android Studio<br>• View Binding<br>• Basic Interactive Apps |
+| 4    | Project: CodeMath            |                                |
+| 5    | Lab: Random Pets             | • API Queries<br>• Parsing JSON data<br>• Loading data from the web |
+| 5    | Project: Choose Your Own API |                                |
+| 6    | Lab: Random Pets 2           | • RecyclerView<br>• Connecting RecyclerView to API results |
+| 6    | Project: CYOAPI Pt 2: RecyclerView Edition | |
+| 7    | Lab: CodeZen                | • Theming<br>• Resource Files<br>• Custom Fonts |
+| 7    | Project: CYOAPI Pt 3: Beautified | |
+| 8    | Group Project: Milestone 1   | • Product Specs<br>• Wireframing |
+| 9    | Group Project: Milestone 2   | • Developing and testing<br>• Recording a demo video |
+| 10   | Group Project: Demo Day!!! 🎉 | • Celebrating accomplishments |
 
-<img src='https://i.imgur.com/tsf8DLE.gif' title='Price Calculator width='' alt='Video Demo' />
 
-GIF created with **your chosen GIF tool**
+## Invividual App Projects
 
-<!-- Recommended tools:
-- [Kap](https://getkap.co/) for macOS
-- [ScreenToGif](https://www.screentogif.com/) for Windows
-- [peek](https://github.com/phw/peek) for Linux. -->
-
-## Notes
-
-Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
+Each unit, students will build an Android app in order to apply the concepts they have learned. The apps will take around 2-4 hours outside of class session times to complete.
 
 ## License
 
